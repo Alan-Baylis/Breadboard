@@ -42,6 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logic\Breadboard.cs" />
+    <Compile Include="Logic\Connector.cs" />
+    <Compile Include="Logic\Gate.cs" />
+    <Compile Include="Logic\Gates\GateAnd.cs" />
+    <Compile Include="Logic\Gates\GateNot.cs" />
+    <Compile Include="Logic\Gates\GateOr.cs" />
+    <Compile Include="Logic\Input.cs" />
+    <Compile Include="Logic\LogicItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
