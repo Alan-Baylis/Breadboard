@@ -13,10 +13,26 @@ namespace Breadboard.Logic
     public class Breadboard
     {
         private List<LogicItem> logicItems;
+        private List<Connector> connectors;
 
         public Breadboard()
         {
             logicItems = new List<LogicItem>();
+            connectors = new List<Connector>();
         }
+
+
+        
+        #region Getters
+        public List<LogicItem> GetLogicItems()
+        {
+            return logicItems;
+        }
+
+        public List<Connector> GetConnectors()
+        {
+            return connectors;
+        }
+        #endregion
     }
 }
